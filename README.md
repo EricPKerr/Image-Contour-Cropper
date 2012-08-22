@@ -3,10 +3,10 @@ Image Contour Cropper
 
 Basic Usage:
 
-``$i = new ImageContourCropper;
-$i->debug_contour = true;
-$i->load($external_file_url);
-$i->thumbnail(274, 167);
-$i->save('thumb.jpg');``
+    $i = new ImageContourCropper;
+    $i->debug_contour = true;
+    $i->load($external_file_url);
+    $i->thumbnail(274, 167);
+    $i->save('thumb.jpg');
 
 ![Demo](https://raw.github.com/EricPKerr/Image-Contour-Cropper/master/demo/combined.jpg)
