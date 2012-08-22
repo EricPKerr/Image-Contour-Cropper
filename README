@@ -5,6 +5,6 @@ Basic Usage:
 
 $i = new ImageContourCropper;
 $i->debug_contour = true;
-$i->load(trim(fgets($external_file_url)));
+$i->load($external_file_url);
 $i->thumbnail(274, 167);
 $i->save('thumb.jpg');
